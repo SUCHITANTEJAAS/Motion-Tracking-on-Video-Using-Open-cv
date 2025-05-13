@@ -1,7 +1,7 @@
 import cv2
 
 # Load the video
-cap = cv2.VideoCapture('GTA 6.mp4')  # Replace with 0 for webcam
+cap = cv2.VideoCapture('car.mp4')  # Replace with 0 for webcam
 
 # Create background subtractor
 fgbg = cv2.createBackgroundSubtractorMOG2(history=500, varThreshold=100)
